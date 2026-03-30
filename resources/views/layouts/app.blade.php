@@ -6,8 +6,8 @@
     <title>@yield('title', __('messages.app_title'))</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
-    <nav class="navbar navbar-expand navbar-light bg-white border-bottom mb-3">
+<body class="bg-light">
+    <nav class="navbar navbar-expand navbar-white border-bottom bg-white mb-3">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">{{ __('messages.app_title') }}</a>
             <div class="navbar-nav ms-auto flex-row align-items-center gap-2">
